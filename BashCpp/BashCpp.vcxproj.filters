@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="helper\utils.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\ICmd.hpp">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\CmdBuilder.hpp">
+      <Filter>cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\echo\echo.hpp">
+      <Filter>cmd\echo</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\help\help.hpp">
+      <Filter>cmd\help</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\readfile\readfile.hpp">
+      <Filter>cmd\readfile</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\appendfile\appendfile.hpp">
+      <Filter>cmd\appendfile</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd\copyfile\copyfile.hpp">
+      <Filter>cmd\copyfile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cmd">
+      <UniqueIdentifier>{57f2efd3-457a-4f4f-b713-bfda3941724e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{74ab18b2-85e5-48b1-9b63-c1205f41ae7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd\echo">
+      <UniqueIdentifier>{a775eacc-98dd-447e-ac2f-4b1de4d645bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd\help">
+      <UniqueIdentifier>{2044a4bc-0bb6-44e9-aaba-a0750cab00dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd\readfile">
+      <UniqueIdentifier>{3e37e98c-e3ab-412e-8599-a89e17a27527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd\appendfile">
+      <UniqueIdentifier>{488f97df-57e5-4e79-bdab-25ac5e838d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cmd\copyfile">
+      <UniqueIdentifier>{74a84a60-366f-40f6-a881-dfb42ea6046e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
